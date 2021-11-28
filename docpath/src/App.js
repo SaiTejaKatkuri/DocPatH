@@ -1,12 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import About from './About';
+import { Router, Route} from "react-router"
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+    <div className = "app">
+      <Switch>
+        <Route path = "/about">
+          <About />
+        </Route>
       
-      hello
+      </Switch>
+
+        
     </div>
+    </Router>
   );
 }
 

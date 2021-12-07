@@ -1,0 +1,26 @@
+.test{
+    width: 200px;
+    height: 150px;
+    background-color:cornflowerblue;
+    margin-left: 10px;
+    margin-top: 165px;
+    text-align: center;
+}
+h4{
+    margin-top: 50px;
+
+}
+img{
+    height: 200px;
+    width: 600px;
+margin-top: 20px; 
+}
+ul{
+    background-color: #080203;
+}
+#row3{
+    background-color:#DFD8CA;
+}
+.row4{
+    background-color: orchid;
+}
